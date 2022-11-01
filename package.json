@@ -2,7 +2,7 @@
   "name": "@sintex/ts-env",
   "version": "1.0.0",
   "description": "Type safe environment variables",
-  "main": "index.js",
+  "main": "dist/index.js",
   "typings": "dist/index",
   "scripts": {
     "clean": "rm -rf dist",
