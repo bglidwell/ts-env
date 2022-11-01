@@ -1,6 +1,6 @@
 {
   "name": "@sintex/ts-env",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Type safe environment variables",
   "main": "dist/index.js",
   "typings": "dist/index",
