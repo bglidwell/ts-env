@@ -12,6 +12,7 @@
     "start": "ts-node ./src/bin/app.ts",
     "start:prod": "npm run build && node ./build/bin/app.js",
     "dev": "nodemon -L | pino-pretty",
+    "release": "release-it",
     "test": "jest --verbose"
   },
   "bugs": {
@@ -34,6 +35,7 @@
     "@types/jest": "^29.2.1",
     "@types/node": "^18.11.9",
     "jest": "^29.2.2",
+    "release-it": "^15.5.0",
     "ts-jest": "^29.0.3",
     "typescript": "^4.8.4"
   },
